@@ -17,12 +17,17 @@ module.exports = EpitechNormLinter =
       default: true
     e_verifyLibc:
       title: 'Verify libc functions'
-      description: 'Will search for some libc forbidden functions.\n\nThe fobidden functions are: printf, atof, atoi, atol, strcmp, strlen, strcat, strncat, strncmp, strcpy, strncpy, fprintf, strstr, strtoc, sprintf, asprintf, perror, strtod, strtol, strtoul.'
+      description: 'Will search for some libc forbidden functions.\n\nThe forbidden functions are: printf, atof, atoi, atol, strcmp, strlen, strcat, strncat, strncmp, strcpy, strncpy, fprintf, strstr, strtoc, sprintf, asprintf, perror, strtod, strtol, strtoul.'
       type: 'boolean'
       default: true
     f_showDebug:
       title: 'Print logs on console'
       description: 'Enable this only if you\'re having an issue and want to help the developer solve it.'
+      type: 'boolean'
+      default: false
+    g_useYan:
+      title: 'Use Yan'
+      description: 'Use <a href="https://github.com/motet-a/yan">Yan</a> instead of the default style checker. This will disable the previous options "Verify libc functions" and "Disable comments verification". Headers file must be in the root project\'s directory, or in a sub-folder include/inc.'
       type: 'boolean'
       default: false
 

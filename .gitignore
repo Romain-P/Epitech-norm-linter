@@ -1,3 +1,5 @@
 .DS_Store
 npm-debug.log
-norminette/tempNormLinter.c
+norminette/*.c
+norminette/*.py
+node_modules/
