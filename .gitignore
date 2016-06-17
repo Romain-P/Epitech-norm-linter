@@ -1,5 +1,5 @@
 .DS_Store
 npm-debug.log
 norminette/*.c
-norminette/*.py
+norminette/*.h
 node_modules/
