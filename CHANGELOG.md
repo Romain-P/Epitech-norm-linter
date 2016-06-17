@@ -1,3 +1,6 @@
+## 1.12.0 - Added Yan as an optional norm checker
+* Added <a href="https://github.com/motet-a/yan">Yan</a> as an optional norm checker.
+
 ## 1.8.0 - Updated default norminette
 * Updated default norminette, now finding much more norm errors.
 
